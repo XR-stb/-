@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/foundthing/foundthing",
+        "pages/shophelper/shophelper",
+        "pages/secondhandstore/secondhandstore",
+        "pages/me/me",
+        "pages/secondhandstore/detail/detail",
+        "pages/secondhandstore/detail/chat/chat"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ee0000",
+        "navigationBarTitleText": "校园助手",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json"
+}

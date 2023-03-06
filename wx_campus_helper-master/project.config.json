@@ -1,0 +1,56 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoAudits": false,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.6.2",
+    "appid": "wxb5443eb6a23cb3af",
+    "projectname": "wx_campus_help",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "shop",
+                    "pathName": "pages/secondhandstore/secondhandstore",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "失物招领",
+                    "pathName": "pages/foundthing/foundthing",
+                    "query": ""
+                },
+                {
+                    "name": "跑腿代购",
+                    "pathName": "pages/shophelper/shophelper",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "me",
+                    "pathName": "pages/me/me",
+                    "query": ""
+                }
+            ]
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

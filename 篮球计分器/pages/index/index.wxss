@@ -1,0 +1,185 @@
+/**index.wxss**/
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241,242,246);
+    width: 100%; 
+    height: 1500rpx;
+    padding-top: 100rpx;
+}
+
+.time{
+    margin-top: 0;
+    background-color: hsl(197, 75%, 50%);
+    width: 640rpx;
+    height: 120rpx;
+    text-align: center;
+    color: white;
+    padding: 0;
+    border-radius: 5rpx;
+    margin-bottom: 50rpx;
+}
+.time text{
+    font-size: 80rpx;
+    text-align: center;
+}
+
+.score-box{
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+}
+
+.score{
+    display: flex;
+    margin-top: 100rpx;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.redTeam{
+    background-color: tomato;
+    width: 220rpx;
+    height: 260rpx;
+    position: relative;
+    text-align: center;
+    border-radius: 10rpx;
+    box-shadow: wheat;
+}
+.redTeam text{
+    line-height: 260rpx;
+    position: relative;
+    font-size: 80rpx;
+    color: white;
+}
+
+.vs{
+    height: 260rpx;
+    width: 220rpx;
+    text-align: center;
+    align-items: center;
+}
+
+.vs text{
+    font-size: 100rpx;
+    line-height: 0rpx;
+    position: relative;
+    text-align: center;
+}
+
+.blueTeam{
+    background-color: #2a5caa;
+    width: 220rpx;
+    height: 260rpx;
+    position: relative;
+    text-align: center;
+    border-radius: 10rpx;
+    box-shadow: wheat;
+    clear: left;
+}
+
+.blueTeam text{
+    line-height: 260rpx;
+    position: relative;
+    font-size: 80rpx;
+    color: white;
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add view{
+    margin-bottom: 40rpx;
+}
+
+.red_add{
+    display: flex;
+    flex-direction: column;
+    margin-right: 300rpx;
+}
+
+.blue_add{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.one_btn{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: #1E90FF;
+    text-align: center;
+    border-radius: 10rpx;
+}
+
+.one_btn:active{
+    background: #E0E0E0;
+}
+
+.one_btn text{
+    line-height: 100rpx;
+    font-size: 50rpx;
+    color: #ffffff;
+}
+
+.clear{
+    background: white;
+    width: 150rpx;
+    height: 150rpx;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 50rpx;
+}
+
+.clear:active{
+    background: #E0E0E0;
+}
+
+.clear text{
+    line-height: 150rpx;
+    color: black;
+}
+
+.start{
+    /* background: #a81c12; */
+    width: 150rpx;
+    height: 150rpx;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 50rpx;
+}
+
+.start:active{
+    background: hsl(0, 1%, 73%);
+}
+
+.start image{
+    height: 150rpx;
+    width: 150rpx;
+}
+
+.option{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.clear-score{
+    background: white;
+    width: 150rpx;
+    height: 150rpx;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.clear-score:active{
+    background: #E0E0E0;
+}
+
+.clear-score text{
+    line-height: 150rpx;
+    color: black;
+}

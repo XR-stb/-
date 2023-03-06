@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="time">
+        <text>{{time_str}}</text>
+    </view>
+    <view class='score-box'>
+        <view class="score">
+            <view class="redTeam" style="position: relative; left: 5rpx; top: -129rpx">
+                <text>{{red_score}}</text>
+            </view>
+            <view class="vs"><text>vs</text></view>
+            <view class="blueTeam" style="position: relative; left: -17rpx; top: -129rpx">
+                <text>{{blue_score}}</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="add">
+            <view class="red_add">
+                <view class="one_btn" bindtap="addpoint" data-point="1" data-team="red">
+                    <text>1</text>
+                </view>
+                <view class="one_btn" bindtap="addpoint" data-point="2" data-team="red">
+                    <text>2</text>
+                </view>
+                <view class="one_btn" bindtap="addpoint" data-point="3" data-team="red">
+                    <text>3</text>
+                </view>
+            </view>
+            
+            <view class="blue_add">
+                <view class="one_btn" bindtap="addpoint" data-point="1" data-team="blue">
+                    <text>1</text>
+                </view>
+                <view class="one_btn" bindtap="addpoint" data-point="2" data-team="blue">
+                    <text>2</text>
+                </view>
+                <view class="one_btn" bindtap="addpoint" data-point="3" data-team="blue">
+                    <text>3</text>
+                </view>
+            </view>
+    </view>
+    
+    <view class="option">
+        <view class="clear" bindtap="restart">
+        <text>重置时间</text>
+        </view>
+        <view class="start" bindtap="countdown">
+            <image src='{{img_src}}' style="background-size: 100% 100%;"></image>
+        </view >
+        <!-- <view class="start" bindtap="countdown" style="background-image: url('../images/start.png');background-size: 100% 100%;">
+        </view> -->
+        <view class="clear-score" bindtap="clear_score">
+            <text>清空比分</text>
+        </view>
+    </view>
+</view>
+
+
